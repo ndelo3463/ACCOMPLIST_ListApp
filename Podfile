@@ -6,6 +6,7 @@ target 'Listapp' do
   use_frameworks!
 
   pod 'SwipeCellKit'
+  pod 'SwiftLint'
 
   # Pods for Listapp
 

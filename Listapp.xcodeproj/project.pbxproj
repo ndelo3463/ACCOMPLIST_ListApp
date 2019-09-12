@@ -134,6 +134,7 @@
 			buildConfigurationList = 19D18575227F5B3000247AD8 /* Build configuration list for PBXNativeTarget "Listapp" */;
 			buildPhases = (
 				06720947EF389C6BA1524010 /* [CP] Check Pods Manifest.lock */,
+				2C6FD362231B1E1900C24BE0 /* SwiftLint */,
 				19D1855F227F5B2D00247AD8 /* Sources */,
 				19D18560227F5B2D00247AD8 /* Frameworks */,
 				19D18561227F5B2D00247AD8 /* Resources */,
@@ -234,6 +235,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Listapp/Pods-Listapp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		2C6FD362231B1E1900C24BE0 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -385,7 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PZMX2ULQD4;
+				DEVELOPMENT_TEAM = 7CLNW68F7D;
 				INFOPLIST_FILE = Listapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -405,7 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PZMX2ULQD4;
+				DEVELOPMENT_TEAM = 7CLNW68F7D;
 				INFOPLIST_FILE = Listapp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

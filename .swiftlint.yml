@@ -1,0 +1,21 @@
+line_length: 400
+
+file_length: 
+- warning: 700
+- errorL 1200
+
+type_body_length:
+  - 400 
+  - 500 
+
+disabled_rules: 
+- unused_closure_parameter
+- force_cast
+
+excluded: 
+  - Pods
+
+opt_in_rules: 
+  - empty_count
+  - unavailable_function
+  
